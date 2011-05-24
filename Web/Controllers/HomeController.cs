@@ -12,7 +12,7 @@ namespace Web.Controllers
     {
         public ActionResult Index()
         {
-            ViewData["Message"] = "Welcome to ASP.NET MVC!" + Logic.GetName();
+            ViewData["Message"] = "Welcome to ASP.NET MVC!" + AccountLogic.GetName();
 
             return View();
         }
